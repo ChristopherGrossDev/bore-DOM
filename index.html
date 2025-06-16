@@ -4,14 +4,16 @@
     <title>This Might Be A DOM Idea</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
   </head>
   <body>
     <div>
-      <h1>Some Heading</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi consequatur necessitatibus quod nesciunt esse, corporis aliquam ullam deleniti dolore neque autem! Nihil tempora impedit earum perferendis pariatur molestiae sequi possimus?</p>
+      <h1 id="main-heading">Some Heading</h1> <!-- Fixed heading -->
 
-      <ul>
+      <p id="main-paragraph">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi consequatur necessitatibus quod nesciunt esse, corporis aliquam ullam deleniti dolore neque autem! Nihil tempora impedit earum perferendis pariatur molestiae sequi possimus?
+      </p>
+
+      <ul id="list"> <!-- Fixed ul ID -->
         <li class="item" id="item-1">1</li>
         <li class="item" id="item-2">2</li>
         <li class="item" id="item-3">3</li>
@@ -27,13 +29,15 @@
         <li class="item" id="item-13">13</li>
         <li class="item" id="item-14">14</li>
         <li class="item" id="item-15">15</li>
-        <li id="item-16">16</li>
+        <li class="item" id="item-16">16</li>
       </ul>
+
       <div class="imgDiv">
-      <img>
-      <img src="https://nbcuunikidsprod.su.apps.nbcuni.com/sites/universalkids/files/styles/w580_h1172_focalpoint/public/2018/12/1920x1080-character-bio-barney.jpg?itok=5VjNqf0X">
+        <img id="main-img" src="" alt="Main Image"> <!-- Target for JS -->
+         
     </div>
-    </div>
+
+    <!-- Connect JS file -->
     <script src="./main.js"></script>
   </body>
 </html>
