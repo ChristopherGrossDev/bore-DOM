@@ -10,8 +10,8 @@ heading.style.fontSize = '42px';
 paragraph.innerText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id urna a libero interdum posuere. Donec vitae aliquet sapien. Vivamus sagittis erat a lacus tincidunt, vel feugiat odio ultrices.';
 
 // 4. Reduce the opacity of the 13th item to 30% transparency.
-let listItems = document.querySelectorAll('.item'); // Select all list items by class
-listItems[12].style.opacity = '0.3'; // Index 12 = 13th item
+let listItems = document.querySelectorAll('.item'); // .item selects all list items by class
+listItems[12].style.opacity = '0.3'; // (Index 12 = 13th) item i had some help on this one is there a better way?
 
 // 5. Modify the text of the 3rd item to read "Greetings!"
 listItems[2].innerText = 'Greetings!'; // Index 2 = 3rd item
